@@ -1,0 +1,46 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "hello nice peoplesasdadfsfsfsfs",
+      "attention": true,
+      "date": "2020-07-13T15:03:42.728Z"
+    },
+    {
+      "id": 2,
+      "message": "hehe hahahahaasdsadad",
+      "attention": false,
+      "date": "2020-07-13T15:06:00.936Z"
+    },
+    {
+      "id": 3,
+      "message": "chinta ta chita chita adsaasdsada",
+      "attention": true,
+      "date": "2020-07-13T15:06:21.113Z"
+    },
+    {
+      "message": "asdad",
+      "attention": false,
+      "tech": "Ayan Paul",
+      "date": "2020-07-13T14:10:03.502Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Ayan",
+      "lastName": "Paul"
+    },
+    {
+      "id": 2,
+      "firstName": "Sanjay",
+      "lastName": "Majhi"
+    },
+    {
+      "id": 3,
+      "firstName": "Sanju",
+      "lastName": "Sarkar"
+    }
+  ]
+}
