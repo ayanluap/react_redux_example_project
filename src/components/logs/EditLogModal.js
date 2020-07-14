@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { updateLog } from '../../actions/logActions';
@@ -24,6 +25,7 @@ const EditLogModal = ({ current, updateLog }) => {
       const updatedLog = {
         id: current.id,
         message: message,
+        tech: tech,
         attention: attention,
         date: new Date(),
       };
@@ -63,9 +65,7 @@ const EditLogModal = ({ current, updateLog }) => {
               <option value="" disabled>
                 Select A Technician
               </option>
-              <option value="Ayan Paul">Ayan Paul</option>
-              <option value="Sanjay Majhi">Sanjay Majhi</option>
-              <option value="Sanju Sarker">Sanju Sarkar</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
@@ -102,7 +102,7 @@ const EditLogModal = ({ current, updateLog }) => {
 
 EditLogModal.propTypes = {
   updateLog: PropTypes.func.isRequired,
-  current: PropTypes.object.isRequired,
+  current: PropTypes.object,
 };
 
 const modalStyle = {

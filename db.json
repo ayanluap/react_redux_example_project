@@ -1,29 +1,11 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "hello nice peoplesasdadfsfsfsfs",
-      "attention": true,
-      "date": "2020-07-13T15:03:42.728Z"
-    },
-    {
       "id": 2,
       "message": "hehe hahahahaasdsadad",
+      "tech": "anil pal",
       "attention": false,
-      "date": "2020-07-13T15:06:00.936Z"
-    },
-    {
-      "id": 3,
-      "message": "chinta ta chita chita adsaasdsada",
-      "attention": true,
-      "date": "2020-07-13T15:06:21.113Z"
-    },
-    {
-      "message": "asdad",
-      "attention": false,
-      "tech": "Ayan Paul",
-      "date": "2020-07-13T14:10:03.502Z",
-      "id": 4
+      "date": "2020-07-14T08:08:04.100Z"
     }
   ],
   "techs": [
@@ -33,14 +15,14 @@
       "lastName": "Paul"
     },
     {
-      "id": 2,
-      "firstName": "Sanjay",
-      "lastName": "Majhi"
+      "firstName": "ashish",
+      "lastName": "sasmal",
+      "id": 7
     },
     {
-      "id": 3,
-      "firstName": "Sanju",
-      "lastName": "Sarkar"
+      "firstName": "anil",
+      "lastName": "pal",
+      "id": 8
     }
   ]
 }
